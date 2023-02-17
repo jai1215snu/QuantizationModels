@@ -7,4 +7,5 @@ The purpose of this repository is to provide a summary of papers on quantization
 
 ### 2022
 - [[AAAI](https://arxiv.org/abs/1909.05840)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.  [__`qnn`__]
-** `Hessian` | `GroupQuant` | `QAT` | `STE` | `MixedQuant`
+[[code]([https://github.com/sony/ai-research-code/tree/master/mixed-precision-dnns](https://github.com/sIncerass/QBERT))]
+** `Hessian/Eigen` | `GroupQuant` | `QAT` | `STE` | `MixedQuant`
