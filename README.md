@@ -17,3 +17,4 @@ The purpose of this repository is to provide a summary of papers on quantization
 
 ### TBD
 -  Pact: Parameterized clipping activation for quantized neural networks.
+- ADDITIVE POWERS-OF-TWO QUANTIZATION: AN EFFICIENT NON-UNIFORM DISCRETIZATION FOR NEURAL NETWORKS
