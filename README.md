@@ -6,7 +6,10 @@ The purpose of this repository is to provide a summary of papers on quantization
 **Keywords**: **`qnn`**: quantized neural networks | **`bnn`**: binarized neural networks | **`hardware`**: hardware deployment | __`other`__
 
 ### 2022
-- [__` `__][[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.pdf)] IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization [**`qnn`**] [[code](https://github.com/zysxmu/IntraQ)]
+- [__`V`__][[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.pdf)] IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization [**`qnn`**] [[code](https://github.com/zysxmu/IntraQ)]
+  - `Linear` | `PTQ`
+  - `Zero Image` : image을 생성하여 quantization 수행. 
+  - 각 Class의 Image을 평균내어, 최대한 퍼지게 학습
 - [__`V`__][[CVPR](https://arxiv.org/abs/2111.14826)] Nonuniform-to-Uniform Quantization: Towards Accurate Quantization via Generalized Straight-Through Estimation. [**`qnn`**] [[code](https://github.com/liuzechun/Nonuniform-to-Uniform-Quantization)] [59⭐]
   - `NonLinear` | `QAT` | 
   - New STE(for non-linear)
