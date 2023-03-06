@@ -23,7 +23,7 @@ The purpose of this repository is to provide a summary of papers on quantization
 ### 2021
 - [__`V`__][[AAAI](https://arxiv.org/abs/1909.05840)] [[code](https://github.com/sIncerass/QBERT)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.  [__`qnn`__]
   - `Hessian/Eigen` | `GroupQuant` | `QAT` | `STE` | `MixedQuant`
-- [[ICLR](https://openreview.net/forum?id=POWv6hDd9XH)] BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction. [__`qnn`__] [[torch](https://github.com/yhhhli/BRECQ)]
+- [__`V`__][[ICLR](https://openreview.net/forum?id=POWv6hDd9XH)] BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction. [__`qnn`__] [[torch](https://github.com/yhhhli/BRECQ)]
 
 ### TBD
 -  Pact: Parameterized clipping activation for quantized neural networks.
