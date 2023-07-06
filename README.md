@@ -24,6 +24,7 @@ The purpose of this repository is to provide a summary of papers on quantization
 - [__`V`__][[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)] [721⭐]
   - 방법 확인중
   - LLM에 대해 Weight만 Quantization함(4bit)
+- [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers. [__`qnn`__]
 ### 2021
 - [__`V`__][[AAAI](https://arxiv.org/abs/1909.05840)] [[code](https://github.com/sIncerass/QBERT)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.  [__`qnn`__]
   - `Hessian/Eigen` | `GroupQuant` | `QAT` | `STE` | `MixedQuant`
