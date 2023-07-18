@@ -11,6 +11,8 @@ The purpose of this repository is to provide a summary of papers on quantization
   - cholesky, block 연산을 추가하여 속도를 빠르게 하였다.
     
 ### 2022
+- [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers. [__`qnn`__]
+  - 읽는 중..
 - [__`V`__][[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.pdf)] IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization [**`qnn`**] [[code](https://github.com/zysxmu/IntraQ)]
   - `Linear` | `PTQ`
   - `Zero Image` : image을 생성하여 quantization 수행. 
