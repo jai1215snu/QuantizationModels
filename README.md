@@ -5,6 +5,11 @@ The purpose of this repository is to provide a summary of papers on quantization
 
 **Keywords**: **`qnn`**: quantized neural networks | **`bnn`**: binarized neural networks | **`hardware`**: hardware deployment | __`other`__
 
+### 2023
+- [[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)] [721⭐]
+  - OBS를 기반으로 수행한다. Hessian을 2XX^T로 구하고, weight를 하나씩 quantization 하고 나머지를 업데이트 하는 방식이다.
+  - cholesky, block 연산을 추가하여 속도를 빠르게 하였다.
+    
 ### 2022
 - [__`V`__][[CVPR](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.pdf)] IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization [**`qnn`**] [[code](https://github.com/zysxmu/IntraQ)]
   - `Linear` | `PTQ`
