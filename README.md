@@ -27,6 +27,10 @@ The purpose of this repository is to provide a summary of papers on quantization
 - [__`V`__][[arxiv](https://arxiv.org/pdf/2211.10438.pdf)] SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models. [[code](https://github.com/mit-han-lab/smoothquant)] [387⭐]
   - Activation 과 Weight를 잘 조율하여 한쪽을 s만큼 낮추고 한쪽을 s만큼 높여서 가장 좋은 s를 찾아서 quantization 하기 쉽도록 만들어 준다.
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers. [__`qnn`__]
+  - Microsoft 논문
+  - Layer 별로 Knowledge distillation을 하였다.
+  - Quant와 DeQuant를 다른 모듈과 fusion 하였다.
+  - Activation은 Token-wise Quantization을 수행하고, Weight는 Group Quantizaiton을 수행하였다.
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=53412)] Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning. [__`qnn`__] [**`hardware`**]
 ### 2021
 - [__`V`__][[AAAI](https://arxiv.org/abs/1909.05840)] [[code](https://github.com/sIncerass/QBERT)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.  [__`qnn`__]
