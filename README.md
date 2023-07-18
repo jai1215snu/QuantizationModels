@@ -28,9 +28,6 @@ The purpose of this repository is to provide a summary of papers on quantization
   - BREQ와 닮은 점이 있다.(Breq는 linear quant.인 반면 Mr.BiQ는 non linear)
 - [__`V`__][[arxiv](https://arxiv.org/pdf/2211.10438.pdf)] SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models. [[code](https://github.com/mit-han-lab/smoothquant)] [387⭐]
   - Activation 과 Weight를 잘 조율하여 한쪽을 s만큼 낮추고 한쪽을 s만큼 높여서 가장 좋은 s를 찾아서 quantization 하기 쉽도록 만들어 준다.
-- [__`V`__][[ICLR](https://arxiv.org/abs/2210.17323)] GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers [[code](https://github.com/IST-DASLab/gptq)] [721⭐]
-  - 방법 확인중
-  - LLM에 대해 Weight만 Quantization함(4bit)
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers. [__`qnn`__]
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=53412)] Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning. [__`qnn`__] [**`hardware`**]
 ### 2021
