@@ -32,6 +32,9 @@ The purpose of this repository is to provide a summary of papers on quantization
   - Quant와 DeQuant를 다른 모듈과 fusion 하였다.
   - Activation은 Token-wise Quantization을 수행하고, Weight는 Group Quantizaiton을 수행하였다.
 - [[NeurIPS](https://nips.cc/Conferences/2022/Schedule?showEvent=53412)] Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning. [__`qnn`__] [**`hardware`**]
+- [[NeurIPS](https://arxiv.org/abs/2208.07339)] LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale
+  - Feature를 복잡한 것은 FP로, 단순한 것은 Int로 섞어서 Quantization 하자.
+
 ### 2021
 - [__`V`__][[AAAI](https://arxiv.org/abs/1909.05840)] [[code](https://github.com/sIncerass/QBERT)] Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT.  [__`qnn`__]
   - `Hessian/Eigen` | `GroupQuant` | `QAT` | `STE` | `MixedQuant`
